@@ -1,98 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- Navbar (Sits on top) -->
+<div class="top-nav-bar">
+    <a href="index.html" class="w3-bar-item w3-button"><h3><b>Reudy Guerrero:</b> Projects Portfolio</h3></a>
+
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="section-links">
+        <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+        <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+</div>
+
 <header>
-  <div class="container">
-    <img id="profile-picture" src="assets/reudy-guerrero2.jpeg" alt="Profile Picture">
-    <h1>Reudy Guerrero</h1>
-    <p>Junior Java Backend Developer</p>
-  </div>
+    <div class="container">
+        <img id="profile-picture" src="assets/reudy-guerrero2.jpeg" alt="Profile Picture">
+        <h1 style="font-family: Arial, sans-serif">Reudy Guerrero</h1>
+        <h5 style="text-shadow: 2px 2px 4px #000000; font-family: Arial, sans-serif; font-style: italic;">Junior Java Backend Developer</h5>
+    </div>
 </header>
 
 <div id="about-me">
-  <div class="container">
-    <h2>About Me</h2>
-    <p>Hello, my name is Reudy Guerrero. I have been learning Java and Spring Boot for almost a year now and continuously strive to learn new things every day. One of my long-term goals is to become a Full Stack Developer.</p>
-  </div>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello, my name is Reudy Guerrero. I have been learning Java and Spring Boot for almost a year now and
+            continuously strive to learn new things every day. One of my long-term goals is to become a Full Stack
+            Developer.</p>
+    </div>
 </div>
 
 <div class="banner-test">
-  <h3>"Programming languages are just tools. There's no need to choose only one."</h3>
+    <h3>"Programming languages are just tools. There's no need to choose only one."</h3>
 </div>
 
 <div class="container">
-  <section class="skills">
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>Skills</h2>
-        <ul>
-          <li>Java Core</li>
-          <li>Spring Boot</li>
-          <li>Spring Data</li>
-          <li>Spring Security</li>
-          <li>Hibernate</li>
-          <li>Docker</li>
-          <li>Basic HTML, CSS, and Javascript</li>
-        </ul>
-      </div>
-      <div class="col-lg-6">
-        <h2>Abilities</h2>
-        <ul>
-          <li>Problem-Solving</li>
-          <li>Self-Reliance</li>
-          <li>Self-Taught</li>
-          <li>Adaptability</li>
-          <li>Continuous Learning</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    <section class="skills">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Java Core</li>
+                    <li>Spring Boot</li>
+                    <li>Spring Data</li>
+                    <li>Spring Security</li>
+                    <li>Hibernate</li>
+                    <li>Docker</li>
+                    <li>Basic HTML, CSS, and Javascript</li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <h2>Abilities</h2>
+                <ul>
+                    <li>Problem-Solving</li>
+                    <li>Self-Reliance</li>
+                    <li>Self-Taught</li>
+                    <li>Adaptability</li>
+                    <li>Continuous Learning</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </div>
 
 <div class="banner-test">
-  <h3>"Knowledge is the bridge that connects dreams to reality."</h3>
+    <h3>"Knowledge is the bridge that connects dreams to reality."</h3>
 </div>
 
 <div class="container">
-  <div id="projects">
-    <h2 class="projects-title">Projects Showcase</h2>
-  </div>
-  <section class="project">
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>Project 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida neque non justo fermentum, ac aliquet erat bibendum.</p>
-      </div>
-      <div class="col-lg-6">
-        <img src="project1.jpg" alt="Project 1">
-      </div>
+    <div id="projects">
+        <h2 class="projects-title">Projects Showcase</h2>
     </div>
-  </section>
+    <section class="project">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Project 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida neque non justo fermentum, ac
+                    aliquet erat bibendum.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="project1.jpg" alt="Project 1">
+            </div>
+        </div>
+    </section>
 
-  <section class="project">
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>Project 2</h2>
-        <p>Curabitur a mi maximus, consectetur purus sit amet, accumsan elit. Nullam consectetur quam vitae ex gravida dapibus.</p>
-      </div>
-      <div class="col-lg-6">
-        <img src="project2.jpg" alt="Project 2">
-      </div>
-    </div>
-  </section>
+    <section class="project">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Project 2</h2>
+                <p>Curabitur a mi maximus, consectetur purus sit amet, accumsan elit. Nullam consectetur quam vitae ex
+                    gravida dapibus.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="project2.jpg" alt="Project 2">
+            </div>
+        </div>
+    </section>
 </div>
 
 <footer>
-  <div class="container">
-    <p>&copy; 2023 Reudy Guerrero</p>
-  </div>
+    <div class="container">
+        <p>&copy; 2023 Reudy Guerrero</p>
+    </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
