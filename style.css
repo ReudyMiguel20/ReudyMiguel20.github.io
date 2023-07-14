@@ -83,7 +83,6 @@ body {
     text-align: center;
     margin-bottom: 50px;
     padding: 10px;
-    color: black;
     font-size: 32px;
     font-weight: bold;
 }
@@ -101,6 +100,24 @@ body {
     color: #333333;
     font-size: 18px;
     font-weight: bold;
+}
+
+.h2-skills-abilities {
+    color: dodgerblue;
+    text-shadow: 5px 8px 12px ghostwhite;
+    text-align: center;
+    border : 10px inset dodgerblue;
+    border-radius: 10%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Tangerine', serif;
+}
+
+.list-skills-abilities {
+    border: 8px dodgerblue inset;
+    border-radius: 10%;
 }
 
 #skills-abilities {
@@ -163,9 +180,10 @@ p {
 
 h2 {
     font-family: 'Tangerine', serif;
-    text-shadow: 4px 11px 15px #000000;
+    text-shadow: 5px 1px 5px #000000;
     font-weight: unset;
-    color: black;
+    color: white;
+    font-weight: bold;
 }
 
 footer {
@@ -226,16 +244,19 @@ footer {
     list-style: none;
     padding: 0;
     margin: 0;
+
 }
 
 .list-skills-abilities li {
     font-style: italic;
-    font-size: 17px;
+    font-size: 20px;
     color: #333333;
     position: relative;
-    margin-bottom: 10px;
     display: flex;
     align-items: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 .list-skills-abilities li::before {
