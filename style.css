@@ -1,4 +1,5 @@
 body {
+    zoom: 0.9;
     font-family: Arial, sans-serif;
     background: linear-gradient(steelblue, white, lightblue);
     background-repeat: no-repeat;
@@ -158,7 +159,10 @@ p {
 }
 
 .project {
-    margin-bottom: 60px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+
+
 }
 
 .project img {
@@ -170,7 +174,7 @@ p {
 
 .project h2 {
     text-align: center;
-    border: 2px solid lightblue;
+    border: 7px outset black;
     border-radius: 30px;
     background-color: dodgerblue;
     color: white;
@@ -274,3 +278,4 @@ footer {
     border : 2px solid #333333;
     box-sizing: border-box;
 }
+
