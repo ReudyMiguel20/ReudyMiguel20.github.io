@@ -226,7 +226,6 @@ footer {
     list-style: none;
     padding: 0;
     margin: 0;
-
 }
 
 .list-skills-abilities li {
@@ -237,14 +236,6 @@ footer {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-
-
-/*    display: flex;*/
-/*    align-items: center;*/
-
-    /*margin-bottom: 10px;*/
-    /*padding-left: 20px;*/
-    /*position: relative;*/
 }
 
 .list-skills-abilities li::before {
