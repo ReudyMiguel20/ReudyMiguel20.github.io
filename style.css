@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(steelblue, white, lightblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.section-links a {
+    color: white;
+    margin: 15px;
+    margin-bottom: 1px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+
+.top-nav-bar {
+    background: linear-gradient(steelblue, dodgerblue, lightblue);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.top-nav-bar b {
+    font-family: "Century Gothic";
+    /*color: #dce2ff;*/
+    /*color: #979dba;*/
+    /*color: #b8bedb;*/
+    /*color: #c8ceeb;*/
+    /*color: #d2d8f5;*/
+    /*color: #b3e0f2;*/
+    color: #bae7f9;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.top-nav-bar h3 {
+    font-family: "Century Gothic";
+    color: #bae7f9;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+    object-fit: contain;
+    object-position: center top;
+    transform: scale(1.2);
+}
+
+#about-me {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#about-me h2 {
+    margin-top: 15px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#about-me p {
+
+}
+
+#projects {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header {
+    background-color: cadetblue;
+    background-image: url("assets/background12.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.project {
+    margin-bottom: 60px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: 'Tangerine', serif;
+
+}
+
+footer {
+    background: linear-gradient(steelblue, dodgerblue, lightblue);
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.skills {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+.banner-test {
+    background-image: url("assets/background12-2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    position: sticky;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.banner-test h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Tangerine', serif;
+    text-shadow: 2px 2px 4px #000000;
+    font-style: italic;
+    font-weight: bolder;
+}
