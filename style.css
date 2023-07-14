@@ -74,12 +74,18 @@ body {
 #about-me {
     text-align: center;
     margin-bottom: 15px;
+    font-weight: unset;
 }
 
 #about-me h2 {
-    margin-top: 15px;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    border-left: 8px inset black;
+    border-bottom: 4px solid black;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 10px;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 #about-me p {
@@ -87,10 +93,25 @@ body {
 }
 
 #projects {
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    border-left: 8px inset black;
+    border-bottom: 4px solid black;
     text-align: center;
     margin-bottom: 50px;
+    padding: 10px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#skills-abilities {
+    border-left: 8px inset black;
+    border-bottom: 4px solid black;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 10px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 header {
@@ -142,6 +163,9 @@ p {
 
 h2 {
     font-family: 'Tangerine', serif;
+    text-shadow: 4px 11px 15px #000000;
+    font-weight: unset;
+    color: black;
 }
 
 footer {
