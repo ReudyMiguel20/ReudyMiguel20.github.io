@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Reudy Guerrero: Personal Website</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Navbar (Sits on top) -->
-<div class="top-nav-bar">
-    <a href="index.html" class="w3-bar-item w3-button"><h3><b>Reudy Guerrero:</b> Projects Portfolio</h3></a>
 
-    <!-- Float links to the right. Hide them on small screens -->
+<div class="top-nav-bar">
+    <a href="index.html" class="mk-bar-item mk-button"><h3><b>Reudy Guerrero:</b> Projects Portfolio</h3></a>
+
     <div class="section-links">
-        <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-        <a href="#about" class="w3-bar-item w3-button">About</a>
-        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        <a href="#about-me" class="mk--bar-item mk-button">About Me</a>
+        <a href="#skills" class="mk--bar-item mk-button">Skills</a>
+        <a href="#projects" class="mk--bar-item mk-button">Projects</a>
     </div>
 </div>
 
@@ -24,25 +23,28 @@
     <div class="container">
         <img id="profile-picture" src="assets/reudy-guerrero2.jpeg" alt="Profile Picture">
         <h1 style="font-family: Arial, sans-serif">Reudy Guerrero</h1>
-        <h5 style="text-shadow: 2px 2px 4px #000000; font-family: Arial, sans-serif; font-style: italic;">Junior Java Backend Developer</h5>
+        <h5 style="text-shadow: 2px 2px 4px #000000; font-family: Arial, sans-serif; font-style: italic;">Junior Java
+            Backend Developer</h5>
     </div>
 </header>
 
-<div id="about-me">
-    <div class="container">
-        <h2>About Me</h2>
-        <p>Hello, my name is Reudy Guerrero. I have been learning Java and Spring Boot for almost a year now and
-            continuously strive to learn new things every day. One of my long-term goals is to become a Full Stack
-            Developer.</p>
+<section class="about-me">
+    <div id="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello, my name is Reudy Guerrero. I have been learning Java and Spring Boot for almost a year now and
+                continuously strive to learn new things every day. One of my long-term goals is to become a Full Stack
+                Developer.</p>
+        </div>
     </div>
-</div>
+</section>
 
 <div class="banner-test">
     <h3>"Programming languages are just tools. There's no need to choose only one."</h3>
 </div>
 
 <div class="container">
-    <section class="skills">
+    <section id="skills">
         <div class="row">
             <div class="col-lg-6">
                 <h2>Skills</h2>
@@ -78,15 +80,22 @@
     <div id="projects">
         <h2 class="projects-title">Projects Showcase</h2>
     </div>
+
     <section class="project">
         <div class="row">
             <div class="col-lg-6">
-                <h2>Project 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida neque non justo fermentum, ac
-                    aliquet erat bibendum.</p>
+                <h2>Account Service</h2>
+                <p style="text-align: justify">This project is about mastering Spring Security, here I learned the basics of user authentication and authorization
+                   by applying Basic Auth, here I learned how to register security events, handling custom exceptions, assigning user roles
+                   and implementing the HTTPS protocol to the project.</p>
+
+                <div class="d-grid gap-2" style="padding-left: 100px;">
+                    <a href="https://github.com/ReudyMiguel20/Account-Service"><button class="btn btn-primary" type="button">Click here for the source code on Github</button></a>
+                </div>
+
             </div>
             <div class="col-lg-6">
-                <img src="project1.jpg" alt="Project 1">
+                <img src="/assets/accountservice.gif" alt="Project 1">
             </div>
         </div>
     </section>
@@ -94,16 +103,21 @@
     <section class="project">
         <div class="row">
             <div class="col-lg-6">
-                <h2>Project 2</h2>
-                <p>Curabitur a mi maximus, consectetur purus sit amet, accumsan elit. Nullam consectetur quam vitae ex
-                    gravida dapibus.</p>
+                <h2>Account Service</h2>
+                <p style="text-align: justify">This project is about mastering Spring Security, here I learned the basics of user authentication and authorization
+                    by applying Basic Auth, here I learned how to register security events, handling custom exceptions, assigning user roles
+                    and implementing the HTTPS protocol to the project.</p>
+
+                <div class="d-grid gap-2" style="padding-left: 100px;">
+                    <a href="https://github.com/ReudyMiguel20/Account-Service"><button class="btn btn-primary" type="button" style="text-shadow: 2px 2px 4px #000000;">Click here for the source code on Github</button></a>
+                </div>
+
             </div>
             <div class="col-lg-6">
-                <img src="project2.jpg" alt="Project 2">
+                <img src="/assets/accountservice.gif" alt="Project 1">
             </div>
         </div>
     </section>
-</div>
 
 <footer>
     <div class="container">
