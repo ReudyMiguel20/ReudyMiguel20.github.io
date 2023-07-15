@@ -262,6 +262,10 @@ footer {
     margin-left: 15px;
     margin-bottom: 10px;
     padding-top: 10px;
+
+    font-weight: bold;
+    font-family: 'Tangerine', serif;
+    text-shadow: 2px 2px 8px white;
 }
 
 .list-skills-abilities li::before {
@@ -277,5 +281,14 @@ footer {
     align-items: center;
     border : 2px solid #333333;
     box-sizing: border-box;
+}
+
+p {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tangerine', serif;
+    text-shadow: 2px 2px 8px white;
 }
 
