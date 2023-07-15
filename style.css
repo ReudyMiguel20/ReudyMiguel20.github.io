@@ -1,7 +1,7 @@
 body {
     zoom: 0.9;
     font-family: Arial, sans-serif;
-    background: linear-gradient(steelblue, white, lightblue);
+    background: linear-gradient(steelblue, antiquewhite, lightblue);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
