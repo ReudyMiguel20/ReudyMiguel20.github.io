@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f628502d.css",
-    "main.js": "/static/js/main.900f9d42.js",
+    "main.js": "/static/js/main.92bd2335.js",
     "static/media/bargainbee.png": "/static/media/bargainbee.af896cd0b865ceb84fbb.png",
     "static/media/prodental.jfif": "/static/media/prodental.4040c3dcebd0851a5d53.jfif",
     "static/media/githubprofile.PNG": "/static/media/githubprofile.fa3b09d8c6cf0c4cf554.PNG",
@@ -18,10 +18,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.f628502d.css.map": "/static/css/main.f628502d.css.map",
-    "main.900f9d42.js.map": "/static/js/main.900f9d42.js.map"
+    "main.92bd2335.js.map": "/static/js/main.92bd2335.js.map"
   },
   "entrypoints": [
     "static/css/main.f628502d.css",
-    "static/js/main.900f9d42.js"
+    "static/js/main.92bd2335.js"
   ]
 }
